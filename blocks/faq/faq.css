@@ -1,0 +1,27 @@
+.faq .faq-item {
+  border-top: 1px solid var(--light-color, #e3e3e3);
+}
+
+.faq .faq-item:last-child {
+  border-bottom: 1px solid var(--light-color, #e3e3e3);
+}
+
+.faq .faq-question {
+  cursor: pointer;
+  padding: 12px 0;
+  font-weight: 600;
+  list-style-position: outside;
+}
+
+.faq .faq-question p {
+  display: inline;
+  margin: 0;
+}
+
+.faq .faq-answer {
+  padding: 0 0 12px;
+}
+
+.faq .faq-answer p {
+  margin: 0;
+}
